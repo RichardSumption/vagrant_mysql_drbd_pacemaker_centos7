@@ -1,0 +1,15 @@
+---
+### Used for testing with Vagrant ONLY
+:backends:
+  - yaml
+  #- eyaml
+
+:yaml:
+  :datadir: /var/lib/hiera
+
+# operatingsystem and dev-mgmt is only used in local (vagrant) testing - not in real hiera.yaml
+:hierarchy:
+  - environments
+  - common
+
+:logger: console
