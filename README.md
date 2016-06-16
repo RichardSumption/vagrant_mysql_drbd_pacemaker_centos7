@@ -1,9 +1,9 @@
-#vagrant_mysql_drbd_pacemaker_centos7
+#Vagrant Virtualbox DRBD MySQL Pacemaker Centos7
 
-# Simple Description
+## Simple Description
 
-Still a 'work in progress' to make it a generic build.
-At present it will create the cluster and start everything,
+Still a 'work in progress' to make it a generic build.  
+At present it will create the cluster and start everything,  
 but at the moment it is fixed to the ip's defined.  
 
 
@@ -15,6 +15,6 @@ and incorporating Puppet, DRBD, MySQL, Pacemaker & Corosync
 
 
 ## Defaults ip addresses:  
-   virtual_ip - 192.168.56.10
-   node01     - 192.168.56.11
-   node02     - 192.168.56.12
+   virtual_ip - 192.168.56.10  
+   node01     - 192.168.56.11  
+   node02     - 192.168.56.12  
